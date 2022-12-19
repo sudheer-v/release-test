@@ -1,3 +1,4 @@
+PLUGIN_REF="abc/xyz"
 # Must be set before doing a release
 TAG?=
 
