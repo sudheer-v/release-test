@@ -1,4 +1,4 @@
 
 {{- define "audittail.image" -}}
-{{- printf "ghcr.io/metal-toolbox/audittail:v0.5.1" -}}
+{{- printf "ghcr.io/metal-toolbox/audittail:v6.0.0" -}}
 {{- end -}}
