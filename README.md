@@ -3,7 +3,7 @@
 steps:
   - command: ls
     plugins:
-      - abc/xyz#v3.0.0:
+      - abc/xyz#v3.1.0:
 ```
 
 
@@ -12,7 +12,7 @@ steps:
 steps:
   - command: ls
     plugins:
-      - abc/xyz#v3.0.0:
+      - abc/xyz#v3.1.0:
 ```
 
 
@@ -20,5 +20,5 @@ steps:
 steps:
   - command: ls
     plugins:
-      - abc/xyz#v3.0.0:
+      - abc/xyz#v3.1.0:
 ```
