@@ -18,7 +18,7 @@ release: ## Issues a release
 	@echo "Releasing $(TAG)"
 	git checkout -b "release-$(TAG)"
 	sed -i -E s/v[0-9]+\.[0-9]+\.[0-9]+/$(TAG)/ charts/audittail/templates/_values.tpl
-	git add README.md
+	git add charts/audittail/templates/_values.tpl
 	git commit -m "Release $(TAG)"
 	git tag -m "Release $(TAG)" "$(TAG)"
 	git push origin "release-$(TAG)"
