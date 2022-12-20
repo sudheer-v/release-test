@@ -1,16 +1,5 @@
-PLUGIN_REF="abc/xyz"
-# Must be set before doing a release
 TAG?=
 
-# Enable debug logging for plugin-tester image
-TEST_DEBUG?=
-ifdef TEST_DEBUG
-	TTY_FLAG = -t
-else
-	TTY_FLAG =
-endif
-
-AUDITTAIL_IMAGE=ghcr.io/metal-toolbox/audittail
 
 .PHONY: release
 release: ## Issues a release
